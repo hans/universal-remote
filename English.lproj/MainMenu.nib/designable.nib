@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="29"/>
+			<integer value="57"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -58,7 +58,7 @@
 							<string key="NSTitle">NewApplication</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
-								<object class="NSMenuItem" id="218383040">
+								<object class="NSMenuItem" id="283036557">
 									<reference key="NSMenu" ref="110575045"/>
 									<string key="NSTitle">About Universal Remote</string>
 									<string key="NSKeyEquiv"/>
@@ -239,7 +239,7 @@
 									<reference key="NSOnImage" ref="211601423"/>
 									<reference key="NSMixedImage" ref="1070604555"/>
 								</object>
-								<object class="NSMenuItem" id="661782666">
+								<object class="NSMenuItem" id="1040105821">
 									<reference key="NSMenu" ref="854001091"/>
 									<string key="NSTitle">Special Characters...</string>
 									<string key="NSKeyEquiv">t</string>
@@ -38389,14 +38389,6 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">orderFrontStandardAboutPanel:</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="218383040"/>
-					</object>
-					<int key="connectionID">553</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
 						<string key="label">copy:</string>
 						<reference key="source" ref="1014"/>
 						<reference key="destination" ref="306886834"/>
@@ -38455,9 +38447,17 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 					<object class="IBActionConnection" key="connection">
 						<string key="label">orderFrontCharacterPalette:</string>
 						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="661782666"/>
+						<reference key="destination" ref="1040105821"/>
 					</object>
 					<int key="connectionID">562</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">orderFrontStandardAboutPanel:</string>
+						<reference key="source" ref="1050"/>
+						<reference key="destination" ref="283036557"/>
+					</object>
+					<int key="connectionID">563</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -38547,7 +38547,7 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 							<reference ref="1046388886"/>
 							<reference ref="1056857174"/>
 							<reference ref="342932134"/>
-							<reference ref="218383040"/>
+							<reference ref="283036557"/>
 						</object>
 						<reference key="parent" ref="694149608"/>
 					</object>
@@ -38792,7 +38792,7 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 							<reference ref="426952776"/>
 							<reference ref="303995881"/>
 							<reference ref="504048451"/>
-							<reference ref="661782666"/>
+							<reference ref="1040105821"/>
 						</object>
 						<reference key="parent" ref="820211890"/>
 					</object>
@@ -38913,12 +38913,12 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">552</int>
-						<reference key="object" ref="218383040"/>
+						<reference key="object" ref="283036557"/>
 						<reference key="parent" ref="110575045"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">561</int>
-						<reference key="object" ref="661782666"/>
+						<reference key="object" ref="1040105821"/>
 						<reference key="parent" ref="854001091"/>
 					</object>
 				</object>
@@ -39133,7 +39133,7 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">562</int>
+			<int key="maxID">563</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
