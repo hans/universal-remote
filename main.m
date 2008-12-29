@@ -3,7 +3,8 @@
 //  Universal Remote
 //
 //  Created by Hans Engel on 12/27/08.
-//  Copyright (c) 2008 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2008 Hans Engel
+//  See the file LICENSE for licensing details.
 //
 
 #import <Cocoa/Cocoa.h>

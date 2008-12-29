@@ -1,3 +1,8 @@
+=begin
+Copyright (c) 2008 Hans Engel
+See the file LICENSE for licensing details.
+=end
+
 class PreferencesController < OSX::NSObject
   ib_outlet :applications_table, :path_control, :directions
   def applicationDidFinishLaunching(notification)

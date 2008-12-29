@@ -1,4 +1,8 @@
-# -*- coding: utf-8 -*-
+=begin
+Copyright (c) 2008 Hans Engel
+See the file LICENSE for licensing details.
+=end
+
 require 'osx/cocoa'
 OSX.ns_import 'AppleRemote'
 
