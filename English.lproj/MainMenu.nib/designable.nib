@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="389"/>
+			<integer value="374"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -266,12 +266,13 @@
 			<object class="NSWindowTemplate" id="550949472">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{196, 61}, {650, 330}}</string>
+				<string key="NSWindowRect">{{494, 270}, {650, 330}}</string>
 				<int key="NSWTFlags">603979776</int>
 				<string key="NSWindowTitle">Preferences</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<string key="NSWindowContentMaxSize">{3.40282e+38, 3.40282e+38}</string>
+				<string key="NSWindowContentMinSize">{650, 330}</string>
 				<object class="NSView" key="NSWindowView" id="907478746">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
@@ -38227,6 +38228,7 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 					<reference key="NSSuperview"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1680, 1028}}</string>
+				<string key="NSMinSize">{650, 352}</string>
 				<string key="NSMaxSize">{3.40282e+38, 3.40282e+38}</string>
 			</object>
 			<object class="NSCustomObject" id="57376950">
@@ -38930,6 +38932,8 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 					<string>374.IBEditorWindowLastContentRect</string>
 					<string>374.IBWindowTemplateEditedContentRect</string>
 					<string>374.NSWindowTemplate.visibleAtLaunch</string>
+					<string>374.windowTemplate.hasMinSize</string>
+					<string>374.windowTemplate.minSize</string>
 					<string>375.IBPluginDependency</string>
 					<string>385.IBPluginDependency</string>
 					<string>386.IBPluginDependency</string>
@@ -39017,9 +39021,11 @@ ARcABAAAAAEAAAACARwAAwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 					<string>{74, 862}</string>
 					<string>{{11, 977}, {478, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{119, 248}, {650, 330}}</string>
-					<string>{{119, 248}, {650, 330}}</string>
-					<boolean value="YES"/>
+					<string>{{290, 516}, {650, 330}}</string>
+					<string>{{290, 516}, {650, 330}}</string>
+					<boolean value="YES" id="5"/>
+					<reference ref="5"/>
+					<string>{650, 330}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
