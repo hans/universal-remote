@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A2A53F50F0850F5003212A3 /* AppleRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2A53F40F0850F5003212A3 /* AppleRemote.framework */; };
+		3A2A54110F0859AD003212A3 /* AppleRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2A54100F0859AD003212A3 /* AppleRemote.framework */; };
+		3A2A54130F0859B0003212A3 /* AppleRemote.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2A54100F0859AD003212A3 /* AppleRemote.framework */; };
 		3A38E8800F06F10E00278C00 /* universal_remote_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3A38E87F0F06F10E00278C00 /* universal_remote_controller.rb */; };
 		3A38E8900F07021A00278C00 /* preferences_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3A38E88F0F07021A00278C00 /* preferences_controller.rb */; };
 		3AE265F50F084BFE00B1545E /* Universal Remote.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3AE265F40F084BFE00B1545E /* Universal Remote.icns */; };
@@ -19,6 +20,19 @@
 		4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3A2A540B0F0857FB003212A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = /Library/Frameworks;
+			dstSubfolderSpec = 0;
+			files = (
+				3A2A54130F0859B0003212A3 /* AppleRemote.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -26,7 +40,7 @@
 		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		3A2A53F40F0850F5003212A3 /* AppleRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleRemote.framework; path = /Library/Frameworks/AppleRemote.framework; sourceTree = "<absolute>"; };
+		3A2A54100F0859AD003212A3 /* AppleRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppleRemote.framework; sourceTree = "<group>"; };
 		3A38E87F0F06F10E00278C00 /* universal_remote_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = universal_remote_controller.rb; sourceTree = "<group>"; };
 		3A38E88F0F07021A00278C00 /* preferences_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = preferences_controller.rb; sourceTree = "<group>"; };
 		3AE265F40F084BFE00B1545E /* Universal Remote.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Universal Remote.icns"; sourceTree = "<group>"; };
@@ -43,7 +57,7 @@
 			files = (
 				4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */,
 				4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */,
-				3A2A53F50F0850F5003212A3 /* AppleRemote.framework in Frameworks */,
+				3A2A54110F0859AD003212A3 /* AppleRemote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +134,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A2A53F40F0850F5003212A3 /* AppleRemote.framework */,
+				3A2A54100F0859AD003212A3 /* AppleRemote.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
@@ -148,6 +162,7 @@
 				4DDCA7050ACC9A6100E082CE /* Resources */,
 				4DDCA7090ACC9A6100E082CE /* Sources */,
 				4DDCA70B0ACC9A6100E082CE /* Frameworks */,
+				3A2A540B0F0857FB003212A3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -252,6 +267,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -270,6 +289,10 @@
 				ARCHS = (
 					ppc,
 					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				INFOPLIST_FILE = Info.plist;
