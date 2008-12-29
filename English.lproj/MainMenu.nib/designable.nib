@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="374"/>
+			<integer value="389"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -330,7 +330,7 @@
 											</object>
 											<object class="NSScrollView" id="1011293882">
 												<reference key="NSNextResponder" ref="350254972"/>
-												<int key="NSvFlags">318</int>
+												<int key="NSvFlags">286</int>
 												<object class="NSMutableArray" key="NSSubviews">
 													<bool key="EncodedWithXMLCoder">YES</bool>
 													<object class="NSClipView" id="1044797460">
@@ -502,7 +502,7 @@
 											</object>
 											<object class="NSPathControl" id="209129396">
 												<reference key="NSNextResponder" ref="350254972"/>
-												<int key="NSvFlags">302</int>
+												<int key="NSvFlags">270</int>
 												<object class="NSMutableSet" key="NSDragTypes">
 													<bool key="EncodedWithXMLCoder">YES</bool>
 													<object class="NSMutableArray" key="set.sortedObjects">
