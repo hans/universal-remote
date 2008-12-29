@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 require 'osx/cocoa'
-OSX::NSBundle.bundleWithPath('/Library/Frameworks/AppleRemote.framework').load
-OSX.ns_import :AppleRemote
+OSX.ns_import 'AppleRemote'
 
 class UniversalRemoteController < OSX::NSObject
   ib_outlet :prefs
