@@ -1,0 +1,22 @@
+# Universal Remote #
+
+### Description ###
+
+Universal Remote is a Mac OS X application written in RubyCocoa that enables you to assign any hotkey to any button on your Apple Remote. This can enable you to pretty much supercharge your remote. You could, for example, navigate around in Safari while you're not at your desk - with only the Apple Remote.
+
+### Installation ###
+
+To install from this source code package, you need to have Xcode installed, which is available in the Apple Development Tools package.
+
+1. Open `Universal Remote.xcodeproj` and ensure that "10.5 | Release | i386" (or ppc, if you're on a PPC Mac) is selected.
+2. Select Build->Build in Xcode's menu. Wait for the build to finish - you will see the message "Build succeeded" in the status bar when it is done.
+3. Navigate to the application's folder and then go into "build". After that, choose "Release." Inside the folder should be the finished `Universal Remote.app`. You can then launch the application from that file.
+
+### Contact ###
+
+If you find a bug in this program or just want to talk to me about it, you can contact me at spam.me@engel.uk.to. My name's Hans Engel, by the way.
+
+### License ###
+
+Copyright (c) 2008 Hans Engel.
+See the file LICENSE for licensing details.
