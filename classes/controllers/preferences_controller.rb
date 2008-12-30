@@ -75,6 +75,7 @@ class PreferencesController < OSX::NSObject
     load_prefs
   end
 
+  ib_action :insert_hotkey
   def insert_hotkey(sender)
     idx = @applications_table.selectedRowIndexes
     if idx.count == 1
