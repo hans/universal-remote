@@ -14,7 +14,6 @@
 		3A0028450F0974F600B37382 /* HIDRemoteControlDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0028440F0974F600B37382 /* HIDRemoteControlDevice.h */; };
 		3A0028840F09755E00B37382 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0028830F09755E00B37382 /* RemoteControl.m */; };
 		3A0028860F09757100B37382 /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0028850F09757100B37382 /* HIDRemoteControlDevice.m */; };
-		3A0028870F09757A00B37382 /* HIDRemoteControlDevice.m in Headers */ = {isa = PBXBuildFile; fileRef = 3A0028850F09757100B37382 /* HIDRemoteControlDevice.m */; };
 		3A38E8800F06F10E00278C00 /* universal_remote_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3A38E87F0F06F10E00278C00 /* universal_remote_controller.rb */; };
 		3A38E8900F07021A00278C00 /* preferences_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3A38E88F0F07021A00278C00 /* preferences_controller.rb */; };
 		3AE265F50F084BFE00B1545E /* Universal Remote.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3AE265F40F084BFE00B1545E /* Universal Remote.icns */; };
@@ -175,7 +174,6 @@
 				3A0027650F0973EA00B37382 /* AppleRemote.h in Headers */,
 				3A0028430F0974C900B37382 /* RemoteControl.h in Headers */,
 				3A0028450F0974F600B37382 /* HIDRemoteControlDevice.h in Headers */,
-				3A0028870F09757A00B37382 /* HIDRemoteControlDevice.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
