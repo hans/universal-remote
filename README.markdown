@@ -14,7 +14,7 @@ To install from this source code package, you need to have Xcode installed, whic
 
 ### Contact ###
 
-If you find a bug in this program or just want to talk to me about it, you can contact me at spam.me@engel.uk.to. My name's Hans Engel, by the way.
+If you find a bug in this program or just want to talk to me about it, you can [contact me](spam.me@engel.uk.to). My name's Hans Engel, by the way.
 
 ### License ###
 
