@@ -2,7 +2,7 @@ h1. Universal Remote
 
 h3. Description
 
-!>http://i277.photobucket.com/albums/kk55/hansengel/UniversalRemote.jpg!
+!>http://i277.photobucket.com/albums/kk55/hansengel/UniversalRemote-1.png!
 
 Universal Remote is a Mac OS X application written in RubyCocoa that enables you to assign any hotkey to any button on your Apple Remote. This can enable you to pretty much supercharge your remote. You could, for example, navigate around in Safari while you're not at your desk - with only the Apple Remote.
 
